@@ -10,11 +10,50 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- stylesheet css link -->
     <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <title>Honda CBR</title>
 </head>
 
 <body>
-    <header>
+    <header class="">
+        <!------------------------------ navbar-------------------------------- -->
+        <nav class="navbar navbar-expand-lg navbar-light container-fluid banner-section ">
+            <div class="container-fluid  row-cols-md-auto m-auto ">
+                <div class="col-8 col-md-3">
+                    <a target="_blank" class="navbar-brand " href="#">
+                        <img class="w-50" src="images/logo (1).png" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler bg-white fs-6 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+                <div class="col-8 collapse navbar-collapse  " id="navbarNav">
+                    <ul class="navbar-nav  col-md fs-5  ">
+                        <li class="nav-item col-2 ">
+                            <a class="nav-link active text-white-50" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item col-2 ">
+                            <a class="nav-link text-white-50" href="#">Fetured Bikes</a>
+                        </li>
+                        <li class="nav-item col-2 ">
+                            <a class="nav-link text-white-50 " href="#">Reviews</a>
+                        </li>
+                        <li class="nav-item col-2">
+                            <a class="nav-link text-white-50" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item col-2 ">
+                            <a class="nav-link text-white-50" href="#">Activity</a>
+                        </li>
+                        <li class="nav-item col-2 ">
+                            <a class="nav-link text-white-50" href="#">Challenges</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!---------------------------------------- banner-section--------------------- -->
         <section class=" container-fluid  banner-section">
             <div class="row px-1  px-md-5 py-5 ">
@@ -259,11 +298,142 @@
 
 
 
-                   
+
                 </div>
 
             </div>
         </section>
+        <!--------------------------------- Bonus sections--------------------- -->
+        <!---------------------------- Honda carousel section-------------------------- -->
+        <section class="container">
+            <h1 class="fw-bold  text-center my-5 ">Hondas <span class="tag-color"> Activity</span> </h1>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                        class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        class="bg-danger" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        class="bg-danger" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        class="bg-danger" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner  p-3  shadow">
+                    <div class="carousel-item active ">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-12 col-lg-8 col-md-6 mt-3 mt-lg-0 mt-md-0 ">
+                                <img src="images/bsc-1.png" class="d-block w-100" alt="banner-image">
+                            </div>
+                            <div class="col-12 col-lg-4 col-md-6 ">
+                                <h2>Honda Issues "Honda Sustainability Report 2021</h2>
+
+                                <button type="button"
+                                    class="btn px-5 my-2 py-2 fs-4  text-dark  border-2 border-secondary ">
+                                    <a class="text-decoration-none text-dark"
+                                        href="https://global.honda/heritage.html">More
+                                    </a> <i class="ps-3 fs-6 fas fa-greater-than"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  ">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-12 col-lg-8 col-md-6 mt-3 mt-lg-0 mt-md-0 ">
+                                <img src="images/bsc-2.png" class="d-block w-100" alt="banner-image">
+                            </div>
+                            <div class="col-12 col-lg-4 col-md-6 ">
+                                <h2>Victory For Verstappen In Austria - Five In A Row For Honda Power! #F1</h2>
+
+                                <button type="button"
+                                    class="btn px-5 my-2 py-2 fs-4  text-dark  border-2 border-secondary ">
+                                    <a class="text-decoration-none text-dark"
+                                        href="https://global.honda/heritage.html">More
+                                    </a> <i class="ps-3 fs-6 fas fa-greater-than"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  ">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-12 col-lg-8 col-md-6 mt-3 mt-lg-0 mt-md-0 ">
+                                <img src="images/bsc-3.jpg" class="d-block w-100" alt="banner-image">
+                            </div>
+                            <div class="col-12 col-lg-4 col-md-6 ">
+                                <h2>Honda Holds World Premiere of the All-new Civic Hatchback</h2>
+
+                                <button type="button"
+                                    class="btn px-5 my-2 py-2 fs-4  text-dark  border-2 border-secondary ">
+                                    <a class="text-decoration-none text-dark"
+                                        href="https://global.honda/heritage.html">More
+                                    </a> <i class="ps-3 fs-6 fas fa-greater-than"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  ">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-12 col-lg-8 col-md-6 mt-3 mt-lg-0 mt-md-0 ">
+                                <img src="images/bsc-4.jpg" class="d-block w-100" alt="banner-image">
+                            </div>
+                            <div class="col-12 col-lg-4 col-md-6 ">
+                                <h2>Honda Announces the Establishment of Ashirase, Inc., a Startup Originated from
+                                    IGNITION, a Honda New Business Creation Program</h2>
+
+                                <button type="button"
+                                    class="btn px-5 my-2 py-2 fs-4  text-dark  border-2 border-secondary ">
+                                    <a class="text-decoration-none text-dark"
+                                        href="https://global.honda/heritage.html">More
+                                    </a> <i class="ps-3 fs-6 fas fa-greater-than"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <button class="carousel-control-prev carousel-btn-color  " type="button"
+                    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon  " aria-hidden="true"></span>
+                    <span class="visually-hidden  ">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-btn-color " type="button"
+                    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!------------------------------- Heritage of Challenges section------------------- -->
+        <section class="container">
+            <h1 class="fw-bold  text-center my-5 ">Heritage of <span class="tag-color"> Challenges</span> </h1>
+            <div class="row px-1    bg-dark">
+                <!---------------------------------- banner-image----------------------->
+                <div class="  col-12 col-md-8   ">
+                    <img class=" w-100 " src="images/top_heritage.jpg" alt="Heritage image">
+                </div>
+                <div class=" col-12 col-md-4 mx-auto my-5 align-self-center  text-white">
+
+                    <h2 class="fw-bolder mb-3">
+                        Do not fear failure by challenging, but failure by doing nothing
+                        </h1>
+                        <p class="fw-light header-details mb-4">
+                            Soichiro Honda, Founder <br>
+                        </p>
+                        <button type="button" class="btn px-5 my-2 py-2 fs-4  text-white  border-light ">
+                            <a class="text-decoration-none text-white" href="https://global.honda/heritage.html">More
+                            </a> <i class="ps-3 fs-6 fas fa-greater-than"></i>
+                        </button>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
     </main>
     <!-- font Awesome Kit -->
     <script src="https://kit.fontawesome.com/e10015e717.js" crossorigin="anonymous"></script>

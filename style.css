@@ -29,3 +29,9 @@
 .fa-star {
  color: #E76F51;
 }
+
+/*---------------- carousel section-------------- */
+.carousel-btn-color{
+    background-color: rgba(0, 0, 0, 0.062);
+    
+}
