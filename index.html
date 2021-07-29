@@ -18,7 +18,7 @@
 <body>
     <header class="">
         <!------------------------------ navbar-------------------------------- -->
-        <nav class="navbar navbar-expand-lg navbar-light container-fluid banner-section ">
+        <nav class="navbar navbar-expand-lg navbar-light container-fluid banner-section fixed-top">
             <div class="container-fluid  row-cols-md-auto m-auto ">
                 <div class="col-8 col-md-3">
                     <a target="_blank" class="navbar-brand " href="#">
@@ -32,22 +32,22 @@
                 <div class="col-8 collapse navbar-collapse  " id="navbarNav">
                     <ul class="navbar-nav  col-md fs-5  ">
                         <li class="nav-item col-2 ">
-                            <a class="nav-link active text-white-50" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-white-50" aria-current="page" href="#HOME">Home</a>
                         </li>
                         <li class="nav-item col-2 ">
-                            <a class="nav-link text-white-50" href="#">Fetured Bikes</a>
+                            <a class="nav-link text-white-50" href="#Fetured Bikes">Fetured Bikes</a>
                         </li>
                         <li class="nav-item col-2 ">
-                            <a class="nav-link text-white-50 " href="#">Reviews</a>
+                            <a class="nav-link text-white-50 " href="#Reviews">Reviews</a>
                         </li>
                         <li class="nav-item col-2">
-                            <a class="nav-link text-white-50" href="#">FAQ</a>
+                            <a class="nav-link text-white-50" href="#FAQ">FAQ</a>
                         </li>
                         <li class="nav-item col-2 ">
-                            <a class="nav-link text-white-50" href="#">Activity</a>
+                            <a class="nav-link text-white-50" href="#Activity">Activity</a>
                         </li>
                         <li class="nav-item col-2 ">
-                            <a class="nav-link text-white-50" href="#">Challenges</a>
+                            <a class="nav-link text-white-50" href="#Challenges">Challenges</a>
                         </li>
 
                     </ul>
@@ -55,7 +55,7 @@
             </div>
         </nav>
         <!---------------------------------------- banner-section--------------------- -->
-        <section class=" container-fluid  banner-section">
+        <section class=" container-fluid  banner-section" id="HOME">
             <div class="row px-1  px-md-5 py-5 ">
                 <div class=" col-12 col-md-5 mx-auto align-self-center  text-white">
                     <p class="fw-light m-0">Computer-controlled digital transistorized with electronic advance</p>
@@ -108,7 +108,7 @@
     </header>
     <main>
         <!-- ------------------------------feature-bike Section------------------------------ -->
-        <section class="container">
+        <section class="container" id="Fetured Bikes">
             <div class="text-center  my-5">
                 <h1 class="fw-bold  mb-0 fs-1 me-4 me-md-0">Fetured Bikes 2021</h1>
                 <small class="tag-color me-4 me-md-0">Best bike collection</small>
@@ -127,7 +127,7 @@
             </div>
         </section>
         <!-- ------------------------------------client Section-------------------------------------- -->
-        <section class="container  my-5">
+        <section class="container  my-5" id="Reviews">
             <h1 class="fw-bold  text-center  ">Happy <span class="tag-color"> Clients says </span> </h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
                 <div class="col rounded-3 ">
@@ -212,7 +212,7 @@
             </div>
         </section>
         <!------------------------ Frequently  Asked Questions  --------------------------->
-        <section class="container mt-5 my-5">
+        <section class="container mt-5 my-5" id="FAQ">
             <h1 class="fw-bold  text-center  ">Frequently <span class="tag-color"> Asked Questions</span> </h1>
             <div class="row ">
                 <div class=" col-12 col-md-5 mx-auto me-md-5">
@@ -305,7 +305,7 @@
         </section>
         <!--------------------------------- Bonus sections--------------------- -->
         <!---------------------------- Honda carousel section-------------------------- -->
-        <section class="container">
+        <section class="container" id="Activity">
             <h1 class="fw-bold  text-center my-5 ">Hondas <span class="tag-color"> Activity</span> </h1>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators ">
@@ -405,10 +405,10 @@
             </div>
         </section>
         <!------------------------------- Heritage of Challenges section------------------- -->
-        <section class="container">
+        <section class="container" id="Challenges">
             <h1 class="fw-bold  text-center my-5 ">Heritage of <span class="tag-color"> Challenges</span> </h1>
             <div class="row px-1    bg-dark">
-                <!---------------------------------- banner-image----------------------->
+                
                 <div class="  col-12 col-md-8   ">
                     <img class=" w-100 " src="images/top_heritage.jpg" alt="Heritage image">
                 </div>
@@ -429,11 +429,6 @@
 
             </div>
         </section>
-
-
-
-
-
     </main>
     <!-- font Awesome Kit -->
     <script src="https://kit.fontawesome.com/e10015e717.js" crossorigin="anonymous"></script>
